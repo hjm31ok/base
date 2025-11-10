@@ -1,6 +1,6 @@
 //Hold at least 1 Basic Contracts Pin NFTs(以下代码置于remix，用于完成base公会任务Base Learn Newcomer)
 
-··············································
+·············································
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
