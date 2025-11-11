@@ -7,3 +7,20 @@
 
 
 ```````````````````````````````````````````````
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.23;
+
+contract AddressBookFactory {
+    function deploy() public returns (address) {
+        address newContract = address(new AddressBook(msg.sender));
+        return newContract;
+    }
+}
+
+contract AddressBook {
+    address public owner;
+
+    constructor(address _owner) {
+        owner = _owner;
+    }
+}
