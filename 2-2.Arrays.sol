@@ -1,3 +1,4 @@
+//此代码用于验证“Own a(n) Arrays Pin NFT”任务
 // https://docs.base.org/learn/arrays/arrays-exercise
 
 ````````````````````````````````````````````````
